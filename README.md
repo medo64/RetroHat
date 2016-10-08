@@ -42,6 +42,10 @@ To verify operation succeeded, use raspi-gpio (expected INPUT for all pins):
     sudo raspi-gpio get
     sudo cat /sys/kernel/debug/gpio
 
+After reboot, keys will be automatically detected. To verify workings you can
+use evtest:
+
+    evtest
 
 
 ---
